@@ -1,9 +1,13 @@
 name: Publish Test
 
 on:
-  release:
-    tags:
-      - "v[0-9]+.[0-9]+.[0-9]+"
+  workflow_run:
+    workflows:
+      - "Bump Version"
+    types:
+      - "completed"
+    branches:
+      - "main"
 
 jobs:
   publish:
