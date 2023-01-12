@@ -7,6 +7,10 @@
 		"PATH": "/root/.local/bin:${containerEnv:PATH}",
 		"LANG": "en_US.UTF-8"
 	},
+	"runArgs": [
+		"--name",
+		"learn-github"
+	],
 	"postCreateCommand": "./.devcontainer/postCreateCommand.sh",
 	"customizations": {
 		"vscode": {
