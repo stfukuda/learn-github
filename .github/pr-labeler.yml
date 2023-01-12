@@ -1,0 +1,10 @@
+chore: chore/*
+ci: ci/*
+docs: docs/*
+feat: feat/*
+fix: fix/*
+perf: pref/*
+refactor: refactor/*
+release: release/*
+style: style/*
+test: test/*
